@@ -39,15 +39,14 @@
 21. [JS-12 — Как распространяются ошибки в Promise?](../../fundamentals/javascript.md#js-12) — углубление; строки Excel: 118.
 22. [VUE-05 — Когда slots, provide/inject и attrs?](../../frontend/vue.md#vue-05) — впервые в маршруте; строки Excel: 125.
 23. [VUE-06 — Зачем key, v-if/v-show и async components?](../../frontend/vue.md#vue-06) — углубление; строки Excel: 125.
-24. [TS-03 — Что дают generics и ограничения?](../../fundamentals/typescript.md#ts-03) — впервые в маршруте; строки Excel: 131.
-25. [TS-05 — Как устроены mapped types и utility types?](../../fundamentals/typescript.md#ts-05) — впервые в маршруте; строки Excel: 131.
-26. [TS-06 — Как работают conditional types, infer и рекурсивные типы?](../../fundamentals/typescript.md#ts-06) — впервые в маршруте; строки Excel: 131.
-27. [TOOL-02 — Как работает bundler и чем dev отличается от build?](../../engineering/tooling-git.md#tool-02) — впервые в маршруте; строки Excel: 136.
-28. [TOOL-04 — Зачем линтер и monorepo?](../../engineering/tooling-git.md#tool-04) — углубление; строки Excel: 137, 138.
-29. [WEB-03 — Cookies, WebStorage и IndexedDB — что выбрать?](../../frontend/browser-web-api.md#web-03) — впервые в маршруте; строки Excel: 149.
-30. [PERF-04 — Как ускорить ресурсы, список и рендер?](../../platform/performance-monitoring.md#perf-04) — углубление; строки Excel: 175.
-
-- [VUE-08 — Что возвращает render-функция и когда нужен h()?](../../frontend/vue.md#vue-08) — строка Excel: 125.
+24. [VUE-08 — Что возвращает render-функция и когда нужен h()?](../../frontend/vue.md#vue-08) — впервые в маршруте; строки Excel: 125.
+25. [TS-03 — Что дают generics и ограничения?](../../fundamentals/typescript.md#ts-03) — впервые в маршруте; строки Excel: 131.
+26. [TS-05 — Как устроены mapped types и utility types?](../../fundamentals/typescript.md#ts-05) — впервые в маршруте; строки Excel: 131.
+27. [TS-06 — Как работают conditional types, infer и рекурсивные типы?](../../fundamentals/typescript.md#ts-06) — впервые в маршруте; строки Excel: 131.
+28. [TOOL-02 — Как работает bundler и чем dev отличается от build?](../../engineering/tooling-git.md#tool-02) — впервые в маршруте; строки Excel: 136.
+29. [TOOL-04 — Зачем линтер и monorepo?](../../engineering/tooling-git.md#tool-04) — углубление; строки Excel: 137, 138.
+30. [WEB-03 — Cookies, WebStorage и IndexedDB — что выбрать?](../../frontend/browser-web-api.md#web-03) — впервые в маршруте; строки Excel: 149.
+31. [PERF-04 — Как ускорить ресурсы, список и рендер?](../../platform/performance-monitoring.md#perf-04) — углубление; строки Excel: 175.
 
 ## Поведенческие вопросы
 

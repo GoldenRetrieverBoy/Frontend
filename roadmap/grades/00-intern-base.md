@@ -12,27 +12,29 @@
 
 ## Технические вопросы
 
-1. [ARC-01 — Инкапсуляция, полиморфизм, наследование и композиция — зачем?](../../engineering/architecture.md#arc-01) — впервые в маршруте; строки Excel: 3.
-2. [OPS-01 — Что нужно понимать в Linux и терминале?](../../platform/delivery-node.md#ops-01) — впервые в маршруте; строки Excel: 32, 33.
-3. [TOOL-05 — Что хранит Git и чем reset отличается от revert?](../../engineering/tooling-git.md#tool-05) — впервые в маршруте; строки Excel: 37.
-4. [ARC-07 — Cloud, S3, CDN, BFF и API — как связаны?](../../engineering/architecture.md#arc-07) — впервые в маршруте; строки Excel: 83.
-5. [NET-01 — Что происходит после ввода URL? Где DNS, TCP и TLS?](../../platform/networking.md#net-01) — впервые в маршруте; строки Excel: 83.
-6. [ALG-02 — Object, Map, Set, tuple и Record — что различается?](../../fundamentals/algorithms.md#alg-02) — впервые в маршруте; строки Excel: 96.
-7. [JS-10 — Что копируют spread и structuredClone?](../../fundamentals/javascript.md#js-10) — впервые в маршруте; строки Excel: 96.
-8. [UI-01 — Зачем семантика, если div можно стилизовать как угодно?](../../frontend/html-css-ui.md#ui-01) — впервые в маршруте; строки Excel: 105, 106.
-9. [UI-03 — Как браузер выбирает CSS-правило?](../../frontend/html-css-ui.md#ui-03) — впервые в маршруте; строки Excel: 110.
-10. [UI-04 — Почему flex-элемент не сжимается и когда нужен Grid?](../../frontend/html-css-ui.md#ui-04) — впервые в маршруте; строки Excel: 110.
-11. [JS-18 — Как пройти базовый путь от данных до результата функции?](../../fundamentals/javascript.md#js-18) — впервые в маршруте; строки Excel: 114.
-12. [JS-07 — Какие типы есть в JavaScript и как работает сравнение?](../../fundamentals/javascript.md#js-07) — впервые в маршруте; строки Excel: 114.
-13. [JS-08 — Что такое hoisting и TDZ?](../../fundamentals/javascript.md#js-08) — впервые в маршруте; строки Excel: 114.
-14. [JS-09 — Как устроены прототипы, new и классы?](../../fundamentals/javascript.md#js-09) — впервые в маршруте; строки Excel: 114.
-15. [JS-14 — Как работают ES-модули?](../../fundamentals/javascript.md#js-14) — впервые в маршруте; строки Excel: 114.
-16. [JS-16 — Как проектировать обработку ошибок?](../../fundamentals/javascript.md#js-16) — впервые в маршруте; строки Excel: 114.
+Порядок ниже учитывает зависимости тем: база JavaScript → объекты и функции → интерфейс и DOM → инструменты и сеть. Это порядок занятий; состав требований и строки матрицы сохранены. В инфраструктурных темах на этом уровне достаточно объяснить назначение частей и разобрать простой пример; проектирование отказов оставь для старших грейдов.
+
+1. [JS-18 — Как пройти базовый путь от данных до результата функции?](../../fundamentals/javascript.md#js-18) — впервые в маршруте; строки Excel: 114.
+2. [JS-07 — Какие типы есть в JavaScript и как работает сравнение?](../../fundamentals/javascript.md#js-07) — впервые в маршруте; строки Excel: 114.
+3. [JS-08 — Что такое hoisting и TDZ?](../../fundamentals/javascript.md#js-08) — впервые в маршруте; строки Excel: 114.
+4. [ALG-02 — Object, Map, Set, tuple и Record — что различается?](../../fundamentals/algorithms.md#alg-02) — впервые в маршруте; строки Excel: 96.
+5. [JS-10 — Что копируют spread и structuredClone?](../../fundamentals/javascript.md#js-10) — впервые в маршруте; строки Excel: 96.
+6. [JS-09 — Как устроены прототипы, new и классы?](../../fundamentals/javascript.md#js-09) — впервые в маршруте; строки Excel: 114.
+7. [ARC-01 — Инкапсуляция, полиморфизм, наследование и композиция — зачем?](../../engineering/architecture.md#arc-01) — впервые в маршруте; строки Excel: 3.
+8. [JS-14 — Как работают ES-модули?](../../fundamentals/javascript.md#js-14) — впервые в маршруте; строки Excel: 114.
+9. [JS-16 — Как проектировать обработку ошибок?](../../fundamentals/javascript.md#js-16) — впервые в маршруте; строки Excel: 114.
+10. [UI-01 — Зачем семантика, если div можно стилизовать как угодно?](../../frontend/html-css-ui.md#ui-01) — впервые в маршруте; строки Excel: 105, 106.
+11. [UI-03 — Как браузер выбирает CSS-правило?](../../frontend/html-css-ui.md#ui-03) — впервые в маршруте; строки Excel: 110.
+12. [UI-04 — Почему flex-элемент не сжимается и когда нужен Grid?](../../frontend/html-css-ui.md#ui-04) — впервые в маршруте; строки Excel: 110.
+13. [UI-06 — BEM, utility first и состояния — как выбрать?](../../frontend/html-css-ui.md#ui-06) — впервые в маршруте; строки Excel: 155.
+14. [WEB-07 — Как найти DOM-элемент, изменить текст и подключить обработчик?](../../frontend/browser-web-api.md#web-07) — впервые в маршруте; строки Excel: 148.
+15. [WEB-02 — Как распространяется DOM-событие?](../../frontend/browser-web-api.md#web-02) — впервые в маршруте; строки Excel: 148.
+16. [OPS-01 — Что нужно понимать в Linux и терминале?](../../platform/delivery-node.md#ops-01) — впервые в маршруте; строки Excel: 32, 33.
 17. [TOOL-01 — Зачем package manager и lockfile?](../../engineering/tooling-git.md#tool-01) — впервые в маршруте; строки Excel: 134.
-18. [TOOL-04 — Зачем линтер и monorepo?](../../engineering/tooling-git.md#tool-04) — впервые в маршруте; строки Excel: 135.
-19. [WEB-07 — Как найти DOM-элемент, изменить текст и подключить обработчик?](../../frontend/browser-web-api.md#web-07) — впервые в маршруте; строки Excel: 148.
-20. [WEB-02 — Как распространяется DOM-событие?](../../frontend/browser-web-api.md#web-02) — впервые в маршруте; строки Excel: 148.
-21. [UI-06 — BEM, utility first и состояния — как выбрать?](../../frontend/html-css-ui.md#ui-06) — впервые в маршруте; строки Excel: 155.
+18. [TOOL-05 — Что хранит Git и чем reset отличается от revert?](../../engineering/tooling-git.md#tool-05) — впервые в маршруте; строки Excel: 37.
+19. [TOOL-04 — Зачем линтер и monorepo?](../../engineering/tooling-git.md#tool-04) — впервые в маршруте; строки Excel: 135.
+20. [NET-01 — Что происходит после ввода URL? Где DNS, TCP и TLS?](../../platform/networking.md#net-01) — впервые в маршруте; строки Excel: 83.
+21. [ARC-07 — Cloud, S3, CDN, BFF и API — как связаны?](../../engineering/architecture.md#arc-07) — впервые в маршруте; строки Excel: 83.
 
 ## Поведенческие вопросы
 
