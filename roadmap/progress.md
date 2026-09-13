@@ -1,0 +1,137 @@
+# Журнал подготовки
+
+## Исходные условия
+
+- Цель: техническое собеседование Frontend Middle 3.
+- Дата интервью: не указана.
+- Время в неделю: не указано.
+- Текущий уровень: не диагностирован.
+- Текущий блок: JavaScript.
+- Следующий вопрос при последовательном старте: JS-01. JS-03 остаётся задачей без ответа.
+
+## Результаты
+
+| Вопрос | Состояние | Оценка | Подтверждение / пробел | Следующий шаг |
+|---|---|---|---|---|
+| JS-01 Замыкания | Объяснение дано, не проверен | — | Самостоятельного ответа пока нет | Пример со снимком строки и изменяемой переменной |
+| JS-02 this | Объяснение дано, не проверен | — | Самостоятельного ответа пока нет | Потеря контекста и bind |
+| JS-03 Event loop | Ожидает ответа | — | Задача приведена в конце разбора | Объяснить порядок 1–6 без запуска |
+| JS-04 async/await | Объяснение дано, не проверен | — | Самостоятельного ответа пока нет | Зависимые и независимые запросы |
+| JS-05 Гонки запросов | Объяснение дано, не проверен | — | Самостоятельного ответа пока нет | Устаревшая ошибка и loading |
+| JS-06 Память | Объяснение дано, не проверен | — | Самостоятельного ответа пока нет | Объяснить цепочку удержания |
+
+## Запись после занятия
+
+Добавляем дату, идентификатор вопроса, краткий пересказ ответа, точную ошибку или сильную сторону, результат практики и тему следующей проверки. Реальный рабочий опыт и учебную практику отмечаем отдельно.
+
+Не отмечаем тему освоенной только потому, что объяснение прочитано. Не назначаем автоматические напоминания без отдельного запроса.
+
+## Полный реестр вопросов
+
+Все начальные оценки неизвестны. Факт создания материала не означает прохождения занятия.
+
+| ID | Вопрос | Материал | Проверен |
+|---|---|---|---|
+| JS-01 | Что такое замыкание? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-02 | От чего зависит this? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-03 | Как работает event loop в браузере? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-04 | Блокирует ли await поток? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-05 | Как устранить гонку ответов поиска? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-06 | Почему возникают утечки памяти? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-07 | Какие типы есть в JavaScript и как работает сравнение? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-08 | Что такое hoisting и TDZ? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-09 | Как устроены прототипы, new и классы? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-10 | Что копируют spread и structuredClone? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-11 | Что такое чистая функция и когда допустима мутация? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-12 | Как распространяются ошибки в Promise? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-13 | Чем debounce отличается от throttle? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-14 | Как работают ES-модули? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-15 | Зачем Proxy, Symbol и генераторы? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-16 | Как проектировать обработку ошибок? | [Блок](../fundamentals/javascript.md) | Нет |
+| JS-17 | Что нужно знать о JIT и движке? | [Блок](../fundamentals/javascript.md) | Нет |
+| TS-01 | Чем TypeScript отличается от runtime-валидации? | [Блок](../fundamentals/typescript.md) | Нет |
+| TS-02 | Когда type, interface, union и intersection? | [Блок](../fundamentals/typescript.md) | Нет |
+| TS-03 | Что дают generics и ограничения? | [Блок](../fundamentals/typescript.md) | Нет |
+| TS-04 | keyof, typeof, as const и satisfies — в чём разница? | [Блок](../fundamentals/typescript.md) | Нет |
+| TS-05 | Как устроены mapped types и utility types? | [Блок](../fundamentals/typescript.md) | Нет |
+| TS-06 | Как работают conditional types, infer и рекурсивные типы? | [Блок](../fundamentals/typescript.md) | Нет |
+| VUE-01 | Как работает реактивность и чем ref отличается от reactive? | [Блок](../frontend/vue.md) | Нет |
+| VUE-02 | computed, method, watch и watchEffect — как выбрать? | [Блок](../frontend/vue.md) | Нет |
+| VUE-03 | Когда обновляется DOM и зачем nextTick? | [Блок](../frontend/vue.md) | Нет |
+| VUE-04 | Как организовать props, events и v-model? | [Блок](../frontend/vue.md) | Нет |
+| VUE-05 | Когда slots, provide/inject и attrs? | [Блок](../frontend/vue.md) | Нет |
+| VUE-06 | Зачем key, v-if/v-show и async components? | [Блок](../frontend/vue.md) | Нет |
+| VUE-07 | Как писать composable и очищать асинхронные эффекты? | [Блок](../frontend/vue.md) | Нет |
+| UI-01 | Зачем семантика, если div можно стилизовать как угодно? | [Блок](../frontend/html-css-ui.md) | Нет |
+| UI-02 | Как сделать доступную форму и диалог? | [Блок](../frontend/html-css-ui.md) | Нет |
+| UI-03 | Как браузер выбирает CSS-правило? | [Блок](../frontend/html-css-ui.md) | Нет |
+| UI-04 | Почему flex-элемент не сжимается и когда нужен Grid? | [Блок](../frontend/html-css-ui.md) | Нет |
+| UI-05 | Почему z-index:999999 не помогает? | [Блок](../frontend/html-css-ui.md) | Нет |
+| UI-06 | BEM, utility first и состояния — как выбрать? | [Блок](../frontend/html-css-ui.md) | Нет |
+| WEB-01 | Как HTML превращается в пиксели? | [Блок](../frontend/browser-web-api.md) | Нет |
+| WEB-02 | Как распространяется DOM-событие? | [Блок](../frontend/browser-web-api.md) | Нет |
+| WEB-03 | Cookies, WebStorage и IndexedDB — что выбрать? | [Блок](../frontend/browser-web-api.md) | Нет |
+| WEB-04 | Когда нужен Web Worker? | [Блок](../frontend/browser-web-api.md) | Нет |
+| WEB-05 | Чем Service Worker отличается от Web Worker? | [Блок](../frontend/browser-web-api.md) | Нет |
+| WEB-06 | Как загружаются script, async, defer и ресурсы? | [Блок](../frontend/browser-web-api.md) | Нет |
+| NET-01 | Что происходит после ввода URL? Где DNS, TCP и TLS? | [Блок](../platform/networking.md) | Нет |
+| NET-02 | Чем TCP отличается от UDP и где WebSocket? | [Блок](../platform/networking.md) | Нет |
+| NET-03 | Как устроен HTTP-запрос, методы и статусы? | [Блок](../platform/networking.md) | Нет |
+| NET-04 | Как работают HTTP-кэш и CDN? | [Блок](../platform/networking.md) | Нет |
+| NET-05 | Что такое CORS и preflight? | [Блок](../platform/networking.md) | Нет |
+| NET-06 | Content-Type, multipart, cookies и HTTPS — что важно? | [Блок](../platform/networking.md) | Нет |
+| SEC-01 | Что такое XSS и как защититься? | [Блок](../platform/security.md) | Нет |
+| SEC-02 | Аутентификация, авторизация и CSRF — чем различаются? | [Блок](../platform/security.md) | Нет |
+| SEC-03 | JWT, OAuth, OIDC и SSO — одно и то же? | [Блок](../platform/security.md) | Нет |
+| SEC-04 | Что дают CSP и security headers? | [Блок](../platform/security.md) | Нет |
+| SEC-05 | Как защититься от перебора и утечки секретов? | [Блок](../platform/security.md) | Нет |
+| SEC-06 | Что входит в OWASP Top 10:2025? | [Блок](../platform/security.md) | Нет |
+| ARC-01 | Инкапсуляция, полиморфизм, наследование и композиция — зачем? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-02 | Как применять SOLID без лишних абстракций? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-03 | Какие паттерны реально применяются на Frontend? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-04 | Что разобрать «за пределами каталога паттернов»? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-05 | Как объяснить FSD и границы модулей? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-06 | CSR, SSR, SSG, SPA и MPA — как выбирать? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-07 | Cloud, S3, CDN, BFF и API — как связаны? | [Блок](../engineering/architecture.md) | Нет |
+| ARC-08 | Как безопасно рефакторить и выделять библиотеку? | [Блок](../engineering/architecture.md) | Нет |
+| ALG-01 | Как оценивать сложность? | [Блок](../fundamentals/algorithms.md) | Нет |
+| ALG-02 | Object, Map, Set, tuple и Record — что различается? | [Блок](../fundamentals/algorithms.md) | Нет |
+| ALG-03 | Стек, очередь и связный список — где пригодятся? | [Блок](../fundamentals/algorithms.md) | Нет |
+| ALG-04 | DFS, BFS и рекурсия — как выбрать? | [Блок](../fundamentals/algorithms.md) | Нет |
+| ALG-05 | Как найти кратчайший путь? | [Блок](../fundamentals/algorithms.md) | Нет |
+| ALG-06 | Что знать о сортировках и бинарном поиске? | [Блок](../fundamentals/algorithms.md) | Нет |
+| TEST-01 | Какие тесты выбрать и что такое тестируемый код? | [Блок](../engineering/testing.md) | Нет |
+| TEST-02 | Что такое mock, stub, spy и fixture? | [Блок](../engineering/testing.md) | Нет |
+| TEST-03 | Что показывает coverage? | [Блок](../engineering/testing.md) | Нет |
+| TEST-04 | Как тестировать async и таймеры без flaky-тестов? | [Блок](../engineering/testing.md) | Нет |
+| TEST-05 | Что проверять в компоненте? | [Блок](../engineering/testing.md) | Нет |
+| TEST-06 | Как проводить нагрузочное тестирование? | [Блок](../engineering/testing.md) | Нет |
+| TOOL-01 | Зачем package manager и lockfile? | [Блок](../engineering/tooling-git.md) | Нет |
+| TOOL-02 | Как работает bundler и чем dev отличается от build? | [Блок](../engineering/tooling-git.md) | Нет |
+| TOOL-03 | Как оптимизировать bundle и писать плагин? | [Блок](../engineering/tooling-git.md) | Нет |
+| TOOL-04 | Зачем линтер и monorepo? | [Блок](../engineering/tooling-git.md) | Нет |
+| TOOL-05 | Что хранит Git и чем reset отличается от revert? | [Блок](../engineering/tooling-git.md) | Нет |
+| TOOL-06 | Merge, rebase и cherry-pick — как выбрать? | [Блок](../engineering/tooling-git.md) | Нет |
+| TOOL-07 | GitFlow, Trunk Based и GitLab — что проверят у Middle 3? | [Блок](../engineering/tooling-git.md) | Нет |
+| OPS-01 | Что нужно понимать в Linux и терминале? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-02 | Образ, контейнер и виртуальная машина — в чём разница? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-03 | Volumes, networks, registry и Compose — зачем? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-04 | Как уменьшить образ и ускорить сборку? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-05 | Как строить CI/CD и разделять окружения? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-06 | Как NGINX отдаёт SPA и проксирует API? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-07 | Что нужно знать о Kubernetes для Mid3? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-08 | Зачем Frontend-разработчику Node.js? | [Блок](../platform/delivery-node.md) | Нет |
+| OPS-09 | Условный блок: SSR/BFF, кэш, профилирование памяти | [Блок](../platform/delivery-node.md) | Нет |
+| PERF-01 | Как искать медленный участок? | [Блок](../platform/performance-monitoring.md) | Нет |
+| PERF-02 | Что измеряют LCP, INP и CLS? | [Блок](../platform/performance-monitoring.md) | Нет |
+| PERF-03 | Lab/field, TTFB, FCP, TBT и TTI — зачем знать? | [Блок](../platform/performance-monitoring.md) | Нет |
+| PERF-04 | Как ускорить ресурсы, список и рендер? | [Блок](../platform/performance-monitoring.md) | Нет |
+| PERF-05 | Как использовать Sentry и логи ELK? | [Блок](../platform/performance-monitoring.md) | Нет |
+| PERF-06 | Как проектировать Grafana dashboard и alert? | [Блок](../platform/performance-monitoring.md) | Нет |
+| PERF-07 | Условный блок: Graphite и серверные метрики | [Блок](../platform/performance-monitoring.md) | Нет |
+| MID-01 | После релиза перестало работать оформление. Что делаешь? | [Блок](../engineering/middle3-cases.md) | Нет |
+| MID-02 | Как предотвратить повтор аварии? | [Блок](../engineering/middle3-cases.md) | Нет |
+| MID-03 | Как контролировать технический долг? | [Блок](../engineering/middle3-cases.md) | Нет |
+| MID-04 | Как контролировать документацию? | [Блок](../engineering/middle3-cases.md) | Нет |
+| MID-05 | Как координировать несколько разработчиков? | [Блок](../engineering/middle3-cases.md) | Нет |
+| MID-06 | Как доказать результат и улучшение процессов? | [Блок](../engineering/middle3-cases.md) | Нет |
